@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="weather-card">
+            <div class="search-box">
+                <input type="text" id="cityInput" placeholder="Enter city name...">
+                <button id="searchBtn">🔍</button>
+            </div>
+            <div class="weather-info">
+                <img id="weatherIcon" src="" alt="Weather Icon">
+                <h2 id="temperature">--°C</h2>
+                <h3 id="cityName">City</h3>
+                <div class="details">
+                    <p>🌡️ <span id="humidity">--</span>% Humidity</p>
+                    <p>💨 <span id="wind">--</span> km/h Wind</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
